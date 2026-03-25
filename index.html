@@ -6,7 +6,7 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       background: #0a0a0f;
       color: #e8e8f0;
     }
@@ -18,37 +18,53 @@
     }
 
     h1 {
-      font-size: 40px;
+      font-size: 42px;
       margin-bottom: 5px;
     }
 
     h2 {
-      margin-top: 30px;
+      margin-top: 40px;
       color: #7cffd4;
+      border-bottom: 1px solid #222;
+      padding-bottom: 5px;
     }
 
     p {
       color: #aaa;
-      line-height: 1.6;
+      line-height: 1.7;
     }
 
-    .skills span {
-      display: inline-block;
-      border: 1px solid #333;
-      padding: 6px 10px;
-      margin: 5px;
-      border-radius: 6px;
+    .section-box {
+      background: #13131c;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 15px;
+      border: 1px solid #1e1e2e;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+    }
+
+    .skill-card {
+      background: #13131c;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #1e1e2e;
+    }
+
+    .skill-card b {
+      color: #7cffd4;
     }
 
     .project {
-      margin-bottom: 20px;
-      padding: 15px;
-      border-left: 3px solid #7cffd4;
+      margin-top: 15px;
+      padding: 20px;
       background: #13131c;
-    }
-
-    .project small {
-      color: #888;
+      border-left: 4px solid #7cffd4;
+      border-radius: 6px;
     }
 
     a {
@@ -74,119 +90,127 @@
 <div class="container">
 
   <h1>Priyanka Mankar</h1>
-  <p>Data Analyst | Data Scientist | Python | SQL | Power BI</p>
+  <p>Data Analyst | Python | SQL | Power BI</p>
 
   <h2>About</h2>
-  <p>
-    Detail-oriented Data Analyst with strong skills in Python, SQL, and data visualization tools like Power BI and Tableau.
-    Experienced in data cleaning, exploratory data analysis, and building interactive dashboards through hands-on projects.
-    Proficient in extracting insights from data to support business decision-making. Familiar with machine learning concepts
-    and big data technologies, including Hadoop and AWS fundamentals.
-  </p>
+  <div class="section-box">
+    <p>
+      Detail-oriented Data Analyst with strong expertise in Python, SQL, and data visualization tools such as Power BI and Tableau.
+      Experienced in performing data cleaning, exploratory data analysis (EDA), and building interactive dashboards through hands-on projects.
+      Skilled in transforming raw data into meaningful insights that support data-driven decision-making.
+      
+      Possess a solid foundation in machine learning concepts, statistical analysis, and big data technologies including Hadoop and Hive.
+      Familiar with cloud platforms such as AWS and experienced in working with structured and unstructured datasets.
+      Passionate about solving real-world problems using data and continuously improving analytical and technical skills.
+    </p>
+  </div>
 
   <h2>Education</h2>
 
-<div class="project">
-  <b>PG Diploma in Big Data Analytics (PG-DBDA)</b><br>
-  Centre for Development of Advanced Computing (CDAC), Kharghar<br>
-  <small>2026 | 70.63%</small>
-</div>
+  <div class="section-box">
+    <b>PG Diploma in Big Data Analytics (PG-DBDA)</b><br>
+    Centre for Development of Advanced Computing (CDAC), Kharghar<br>
+    <small>2026 | 70.63%</small>
+  </div>
 
-<div class="project">
-  <b>Bachelor of Engineering – Mechanical Engineering</b><br>
-  Shivaji University Kolhapur<br>
-  <small>2020 | 71.5%</small>
-</div>
+  <div class="section-box">
+    <b>Bachelor of Engineering – Mechanical Engineering</b><br>
+    Shivaji University Kolhapur<br>
+    <small>2020 | 71.5%</small>
+  </div>
 
-<div class="project">
-  <b>Diploma – Mechanical Engineering</b><br>
-  Shivaji University Kolhapur<br>
-  <small>2016 | 67.88%</small>
-</div>
+  <div class="section-box">
+    <b>Diploma – Mechanical Engineering</b><br>
+    Shivaji University Kolhapur<br>
+    <small>2016 | 67.88%</small>
+  </div>
 
-<h2>Technical Skills</h2>
+  <h2>Technical Skills</h2>
 
-<div class="project">
-  <b>Programming & Data Processing</b><br>
-  Python (NumPy, Pandas, Scikit-learn), SQL
-</div>
+  <div class="skills-grid">
 
-<div class="project">
-  <b>Machine Learning & Statistics</b><br>
-  Regression, Classification, Hypothesis Testing, Feature Engineering, Model Evaluation
-</div>
+    <div class="skill-card">
+      <b>Programming & Data Processing</b><br>
+      Python (NumPy, Pandas, Scikit-learn), SQL
+    </div>
 
-<div class="project">
-  <b>Cloud & Systems</b><br>
-  AWS (EC2, S3), Linux, Windows
-</div>
+    <div class="skill-card">
+      <b>Machine Learning & Statistics</b><br>
+      Regression, Classification, Hypothesis Testing, Feature Engineering, Model Evaluation
+    </div>
 
-<div class="project">
-  <b>Data Engineering & Big Data</b><br>
-  Hadoop, Hive, ETL Concepts, Data Pipelines, Data Ingestion
-</div>
+    <div class="skill-card">
+      <b>Cloud & Systems</b><br>
+      AWS (EC2, S3 – foundational), Linux, Windows
+    </div>
 
-<div class="project">
-  <b>Data Visualization</b><br>
-  Tableau, Power BI, Matplotlib
-</div>
+    <div class="skill-card">
+      <b>Data Engineering & Big Data</b><br>
+      Hadoop, Hive, ETL Concepts, Data Pipelines, Data Ingestion, Distributed Processing
+    </div>
 
-<div class="project">
-  <b>Data Handling & Databases</b><br>
-  Data Cleaning, Data Transformation, Schema Design, SQL Databases
-</div>
+    <div class="skill-card">
+      <b>Data Visualization</b><br>
+      Power BI, Tableau, Matplotlib
+    </div>
+
+    <div class="skill-card">
+      <b>Data Handling & Databases</b><br>
+      Data Cleaning, Data Transformation, Schema Design, SQL Databases
+    </div>
+
+  </div>
 
   <h2>Projects</h2>
 
-<div class="project">
-  <b>Power BI Sales Analytics Dashboard</b><br>
-  Developed an interactive dashboard using Power BI to analyze business performance and sales trends.
-  Performed data cleaning and transformation using Power Query and created KPI metrics using DAX.
-  Generated insights on revenue, product performance, and regional trends to support data-driven decisions.<br>
-  <small>Tools: Power BI, DAX, Data Visualization</small><br>
-  <a href="https://github.com/priyags212/PowerBI-Sales-Analytics-Dashboard" target="_blank">
-    🔗 View on GitHub
-  </a>
-</div>
+  <div class="project">
+    <b>Power BI Sales Analytics Dashboard</b><br>
+    Developed a comprehensive and interactive Sales Analytics Dashboard using Power BI to analyze business performance and identify key sales trends.
+    Performed data cleaning and transformation using Power Query and created calculated measures and KPIs using DAX.
+    Designed dynamic visualizations including KPI cards, bar charts, and trend analysis dashboards to provide insights into revenue, product performance, and regional sales distribution.
+    The project enables stakeholders to make informed, data-driven business decisions.<br>
+    <small>Tools: Power BI, DAX, Data Visualization, Power Query</small><br>
+    <a href="https://github.com/priyags212/PowerBI-Sales-Analytics-Dashboard" target="_blank">🔗 View on GitHub</a>
+  </div>
 
-<div class="project">
-  <b>Market Pulse AI</b><br>
-  Built an AI-powered financial analytics platform to analyze stock market trends using real-time data and sentiment analysis.
-  Applied NLP techniques using FinBERT and integrated LLM models for intelligent insights.
-  Created visualizations to identify market patterns and support informed decision-making.<br>
-  <small>Tools: Python, SQL, Machine Learning, NLP</small><br>
-  <a href="https://github.com/priyags212/Market_Pulse_AI" target="_blank">
-    🔗 View on GitHub
-  </a>
-</div>
+  <div class="project">
+    <b>Market Pulse AI</b><br>
+    Built an AI-powered financial analytics platform to analyze stock market trends using real-time market data and news sentiment analysis.
+    Collected and processed financial data and applied natural language processing (NLP) techniques using FinBERT to classify news sentiment into positive, negative, and neutral categories.
+    Integrated large language models (LLMs) to generate insights and support intelligent financial queries.
+    Developed visual dashboards to identify market patterns and assist users in making informed investment decisions.<br>
+    <small>Tools: Python, SQL, Machine Learning, NLP, Data Visualization</small><br>
+    <a href="https://github.com/priyags212/Market_Pulse_AI" target="_blank">🔗 View on GitHub</a>
+  </div>
 
-<div class="project">
-  <b>Credit Risk Analysis</b><br>
-  Developed a machine learning model to analyze customer financial data and predict loan default risk.
-  Performed data cleaning, exploratory data analysis, and feature engineering using Python.
-  Generated insights to support risk assessment and lending decisions.<br>
-  <small>Tools: Python, Pandas, Scikit-learn, SQL</small><br>
-  <a href="https://github.com/priyags212/CreditCard_Case_study" target="_blank">
-    🔗 View on GitHub
-  </a>
-</div>
+  <div class="project">
+    <b>Credit Risk Analysis</b><br>
+    Developed a machine learning-based solution to analyze customer financial data and predict credit default risk.
+    Performed data cleaning, exploratory data analysis (EDA), and feature engineering using Python libraries such as Pandas and NumPy.
+    Applied statistical techniques and Logistic Regression to identify key factors influencing loan default.
+    Generated insights through data visualization and model evaluation to support risk assessment and improve lending decisions.<br>
+    <small>Tools: Python, Pandas, Scikit-learn, SQL, Data Analysis</small><br>
+    <a href="https://github.com/priyags212/CreditCard_Case_study" target="_blank">🔗 View on GitHub</a>
+  </div>
 
   <h2>Certificates</h2>
-  <p>
+  <div class="section-box">
     AWS Academy Graduate – Cloud Foundations<br>
     AWS Academy Graduate – Data Engineering
-  </p>
+  </div>
 
   <h2>Languages</h2>
-  <p>English | Hindi | Marathi</p>
+  <div class="section-box">
+    English | Hindi | Marathi
+  </div>
 
   <h2>Contact</h2>
-  <p>
+  <div class="section-box">
     📧 <a href="mailto:priyankags2012@gmail.com">priyankags2012@gmail.com</a><br>
-    🔗 <a href="https://www.linkedin.com/in/priyanka-mankar/" target="_blank">LinkedIn Profile</a><br>
+    🔗 <a href="https://www.linkedin.com/in/priyanka-mankar/" target="_blank">LinkedIn</a><br>
     💻 <a href="https://github.com/priyags212" target="_blank">GitHub</a><br>
     📞 +91 7218293229
-  </p>
+  </div>
 
   <footer>
     © 2026 Priyanka Mankar
