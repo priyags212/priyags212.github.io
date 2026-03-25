@@ -1,104 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Priyanka Mankar</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Priyanka Mankar — Data Analyst</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #f5f7fa;
-      color: #333;
-      text-align: center;
-    }
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans&family=DM+Mono&display=swap" rel="stylesheet">
 
-    header {
-      background-color: #0a66c2;
-      color: white;
-      padding: 30px 20px;
-    }
+<style>
+:root {
+  --bg:#0a0a0f;
+  --card:#13131c;
+  --border:#1e1e2e;
+  --accent:#7cffd4;
+  --text:#e8e8f0;
+  --muted:#6b6b80;
+}
 
-    section {
-      margin: 30px auto;
-      width: 80%;
-      max-width: 800px;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      text-align: left;
-    }
+*{margin:0;padding:0;box-sizing:border-box}
 
-    h2 {
-      color: #0a66c2;
-      text-align: center;
-    }
+body{
+  background:var(--bg);
+  color:var(--text);
+  font-family:'DM Sans',sans-serif;
+}
 
-    p {
-      line-height: 1.6;
-    }
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
 
-    a {
-      color: #0a66c2;
-      text-decoration: none;
-      font-weight: bold;
-    }
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#0a0a0f;
+  border-bottom:1px solid var(--border);
+  padding:15px;
+}
 
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+.hero{
+  padding:120px 20px 60px;
+}
 
+h1{
+  font-size:50px;
+  font-family:'DM Serif Display',serif;
+}
+
+.hero p{
+  color:var(--muted);
+  margin-top:15px;
+}
+
+.section{
+  padding:60px 0;
+}
+
+h2{
+  margin-bottom:25px;
+  font-family:'DM Serif Display',serif;
+}
+
+.card{
+  background:var(--card);
+  padding:20px;
+  border:1px solid var(--border);
+  margin-bottom:15px;
+}
+
+.skills span{
+  display:inline-block;
+  background:var(--card);
+  border:1px solid var(--border);
+  padding:8px 12px;
+  margin:5px;
+  font-size:14px;
+}
+
+.project{
+  margin-bottom:20px;
+}
+
+.project a{
+  color:var(--accent);
+  text-decoration:none;
+}
+
+.contact a{
+  display:block;
+  margin:10px 0;
+  color:var(--accent);
+  text-decoration:none;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  border-top:1px solid var(--border);
+  color:var(--muted);
+}
+</style>
 </head>
 
 <body>
 
-  <header>
-    <h1>Priyanka Mankar</h1>
-    <p>Data Analyst | Python | SQL | Power BI</p>
-  </header>
+<div class="container">
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-      I am a detail-oriented Data Analyst with strong skills in Python, SQL, and Power BI.
-      I have hands-on experience in data analysis, visualization, and machine learning through
-      academic projects. I am passionate about extracting insights from data to support
-      business decision-making and continuously improving my analytical skills.
-    </p>
-  </section>
+<div class="hero">
+<h1>Priyanka Mankar</h1>
+<p>Data Analyst | Python | SQL | Power BI</p>
+</div>
 
-  <section>
-    <h2>Projects</h2>
+<div class="section">
+<h2>About</h2>
+<div class="card">
+<p>
+I am a Data Analyst skilled in Python, SQL, and Power BI. 
+I specialize in analyzing data, building dashboards, and generating insights 
+to support business decisions.
+</p>
+</div>
+</div>
 
-    <p><b>Power BI Sales Analytics Dashboard</b></p>
-    <p>
-      Developed an interactive dashboard to analyze sales performance and business trends.
-      Performed data cleaning and transformation, created KPI metrics using DAX, and designed
-      visualizations to provide insights on revenue, orders, and regional performance.
-    </p>
+<div class="section">
+<h2>Skills</h2>
+<div class="skills">
+<span>Python</span>
+<span>SQL</span>
+<span>Power BI</span>
+<span>Machine Learning</span>
+<span>Pandas</span>
+<span>NumPy</span>
+</div>
+</div>
 
-    <p><b>Market Pulse AI</b></p>
-    <p>
-      Built a data analytics platform to analyze stock market trends using real-time data
-      and sentiment analysis. Processed financial data and news, classified sentiment,
-      and generated insights through visualizations to support informed investment decisions.
-    </p>
+<div class="section">
+<h2>Projects</h2>
 
-    <p><b>Credit Card Customer Behavior Analysis</b></p>
-    <p>
-      Analyzed customer transaction data to understand spending behavior and financial patterns.
-      Performed data cleaning, exploratory data analysis, and visualization to identify trends
-      and support data-driven decision making.
-    </p>
+<div class="card project">
+<b>Power BI Sales Dashboard</b><br>
+Analyzed sales trends and built dashboards.<br>
+<a href="https://github.com/priyags212/PowerBI-Sales-Analytics-Dashboard">View Project</a>
+</div>
 
-  </section>
+<div class="card project">
+<b>Market Pulse AI</b><br>
+Stock market analytics with sentiment analysis.<br>
+<a href="https://github.com/priyags212/Market_Pulse_AI">View Project</a>
+</div>
 
-  <section>
-    <h2>Links</h2>
-    <p><a href="https://www.linkedin.com/in/priyanka-mankar/">LinkedIn</a></p>
-    <p><a href="https://github.com/priyags212">GitHub</a></p>
-  </section>
+<div class="card project">
+<b>Credit Card Analysis</b><br>
+Analyzed customer spending patterns.<br>
+<a href="https://github.com/priyags212/CreditCard_Case_study">View Project</a>
+</div>
+
+</div>
+
+<div class="section">
+<h2>Contact</h2>
+<div class="contact">
+<a href="mailto:priyankags2012@gmail.com">Email</a>
+<a href="https://www.linkedin.com/in/priyanka-mankar/">LinkedIn</a>
+<a href="https://github.com/priyags212">GitHub</a>
+</div>
+</div>
+
+<footer>
+© 2026 Priyanka Mankar
+</footer>
+
+</div>
 
 </body>
 </html>
