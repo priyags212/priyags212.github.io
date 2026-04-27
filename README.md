@@ -17,24 +17,27 @@
 ---
 
 ## 📌 About Me
+## 📌 About Me
 
-I am a passionate **Data Analyst** with expertise in:
+I am a detail-oriented and passionate **Data Analyst** with strong expertise in **Python, SQL, Machine Learning, Power BI, Tableau, and Big Data technologies** such as Hadoop and Hive.
 
-- Python  
-- SQL  
+I have hands-on experience in **data cleaning, exploratory data analysis (EDA), feature engineering, statistical analysis, dashboard development, and predictive modeling** through real-world projects in financial analytics, credit risk analysis, and business intelligence.
+
+I enjoy transforming raw data into meaningful insights, building data-driven solutions, and solving real-world business problems using analytical thinking and machine learning techniques.
+
+I am also familiar with **ETL processes, cloud platforms like AWS, and working with structured as well as unstructured datasets.**
+
+I have successfully completed **PG Diploma in Big Data Analytics (PG-DBDA) from CDAC Kharghar**, which strengthened my knowledge in analytics, machine learning, big data, and cloud technologies.
+
+Currently seeking opportunities in:
+
+- Data Analytics  
 - Machine Learning  
-- Power BI  
-- Tableau  
-- Hadoop  
-- Hive  
-- AWS  
-- Data Visualization  
-- ETL  
-- Statistical Analysis  
+- Data Engineering  
+- Python Development  
+- SQL/Data Roles
 
-I enjoy working with structured and unstructured datasets, building predictive models, creating dashboards, and solving real-world business problems using data-driven approaches.
-
-Currently pursuing **PG Diploma in Big Data Analytics (PG-DBDA)** from CDAC Kharghar.
+I am passionate about continuous learning and building impactful solutions that create real business value.
 
 ---
 
