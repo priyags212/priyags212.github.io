@@ -1,4 +1,4 @@
-<h1 align="center">✨ Priyanka Mankar Portfolio Website ✨</h1>
+<h1 align="center">✨ Priyanka Mankar ✨</h1>
 
 <p align="center">
   <b>Data Analyst | Machine Learning | Python | SQL | Power BI</b>
