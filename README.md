@@ -10,6 +10,10 @@
   💻 <a href="https://github.com/priyags212">GitHub</a>
 </p>
 
+<p align="center">
+  📧 priyankags2012@gmail.com | 📞 +91 7218293229 | 📍 Pune, India
+</p>
+
 ---
 
 ## 📌 About Me
@@ -131,18 +135,6 @@ Shivaji University Kolhapur
 
 - AWS Academy Graduate – Cloud Foundations  
 - AWS Academy Graduate – Data Engineering  
-
----
-
-## 📬 Contact
-
-📧 priyankags2012@gmail.com  
-
-💼 https://www.linkedin.com/in/priyanka-mankar/
-
-💻 https://github.com/priyags212
-
-🌐 https://priyags212.github.io/
 
 ---
 
