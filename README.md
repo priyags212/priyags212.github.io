@@ -17,7 +17,6 @@
 ---
 
 ## 📌 About Me
-## 📌 About Me
 
 I am a detail-oriented and passionate **Data Analyst** with strong expertise in **Python, SQL, Machine Learning, Power BI, Tableau, and Big Data technologies** such as Hadoop and Hive.
 
@@ -76,9 +75,23 @@ This portfolio website includes:
 ## 🚀 Featured Projects
 
 ### 1. Market Pulse AI
-AI-powered financial intelligence platform that analyzes market news and provides financial insights.
 
-**Tech:** Python, FastAPI, FinBERT, NLP, Machine Learning  
+Developed an **AI-powered financial analytics platform** to analyze stock market trends using real-time financial news and market data.
+
+### Key Features:
+- Real-time market news analysis  
+- Sentiment classification using **FinBERT**  
+- NLP pipeline for financial text processing  
+- LLM integration for intelligent financial insights  
+- Market trend analysis dashboards  
+
+### Technologies Used:
+- Python  
+- FastAPI  
+- FinBERT  
+- NLP  
+- Machine Learning  
+- Data Visualization  
 
 🔗 Repository:  
 https://github.com/priyags212/Market_Pulse_AI
@@ -86,9 +99,22 @@ https://github.com/priyags212/Market_Pulse_AI
 ---
 
 ### 2. Credit Risk Analysis
-Machine learning project built to predict loan default risk.
 
-**Tech:** Python, SQL, Pandas, NumPy, Scikit-learn  
+Built a **machine learning-based credit risk prediction system** to identify potential loan defaulters using customer financial data.
+
+### Key Features:
+- Data cleaning and preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature engineering  
+- Logistic Regression model  
+- Risk prediction and model evaluation  
+
+### Technologies Used:
+- Python  
+- SQL  
+- Pandas  
+- NumPy  
+- Scikit-learn  
 
 🔗 Repository:  
 https://github.com/priyags212/CreditCard_Case_study
@@ -96,9 +122,21 @@ https://github.com/priyags212/CreditCard_Case_study
 ---
 
 ### 3. Power BI Sales Analytics Dashboard
-Interactive dashboard built for analyzing business sales performance.
 
-**Tech:** Power BI, DAX, Power Query  
+Developed an interactive **business intelligence dashboard** to analyze sales performance and identify business growth opportunities.
+
+### Key Features:
+- Revenue analysis  
+- Product performance tracking  
+- Regional sales insights  
+- KPI dashboards  
+- Business trend analysis  
+
+### Technologies Used:
+- Power BI  
+- DAX  
+- Power Query  
+- Data Visualization  
 
 🔗 Repository:  
 https://github.com/priyags212/PowerBI-Sales-Analytics-Dashboard
@@ -106,9 +144,21 @@ https://github.com/priyags212/PowerBI-Sales-Analytics-Dashboard
 ---
 
 ### 4. Personal Portfolio Website
-Designed and developed a personal portfolio website to showcase projects, resume, certifications, and contact details.
 
-**Tech:** HTML, CSS, GitHub Pages, Git  
+Designed and developed a personal portfolio website to showcase my projects, resume, certifications, technical skills, and professional contact information.
+
+### Key Features:
+- Resume download functionality  
+- Project showcase section  
+- GitHub repository links  
+- LinkedIn integration  
+- Responsive dark-themed UI design  
+
+### Technologies Used:
+- HTML  
+- CSS  
+- Git  
+- GitHub Pages  
 
 🔗 Live Website:  
 https://priyags212.github.io/
