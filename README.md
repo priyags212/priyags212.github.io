@@ -11,6 +11,31 @@
 </p>
 
 ---
+<h1 align="center">✨ Priyanka Mankar Portfolio Website ✨</h1>
+
+<p align="center">
+  <b>Data Analyst | Machine Learning | Python | SQL | Power BI</b>
+</p>
+
+<p align="center">
+  🌐 <a href="https://priyags212.github.io/">Live Portfolio</a> |
+  💼 <a href="https://www.linkedin.com/in/priyanka-mankar/">LinkedIn</a> |
+  💻 <a href="https://github.com/priyags212">GitHub</a>
+</p>
+
+---
+
+## Live Project Links
+
+🌐 **Live Portfolio Website:**  
+https://priyags212.github.io/
+
+💻 **Portfolio Source Code:**  
+https://github.com/priyags212/priyags212.github.io
+
+---
+
+# About Me
 
 # 📌 About Me
 
